@@ -1,4 +1,3 @@
-// stepdefinitions.js
 const expect = require('chai').expect;
 
 module.exports = function () {

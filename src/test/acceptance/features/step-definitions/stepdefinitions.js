@@ -2,7 +2,7 @@
 const expect = require('chai').expect;
 
 module.exports = function () {
-  this.Given(/^I go to the website "([^"]*)"$/, (url) => {
+  this.Given(/^I navigate to the endpoint "([^"]*)"$/, (url) => {
     browser.url(url);
   });
 

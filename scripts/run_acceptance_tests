@@ -1,0 +1,8 @@
+#!/usr/bin/env bash -eu
+
+_main() {
+    cd ../src/test/acceptance
+    wdio wdio.conf.js
+}
+
+_main "$@"

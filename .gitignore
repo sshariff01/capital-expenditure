@@ -27,3 +27,6 @@ nbdist/
 .nb-gradle/
 
 node_modules/
+
+out/
+src/test/acceptance/errorShots/

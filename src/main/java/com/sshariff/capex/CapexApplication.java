@@ -1,4 +1,4 @@
-package com.sshariff.capex.capex;
+package com.sshariff.capex;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

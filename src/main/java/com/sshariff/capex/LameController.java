@@ -1,4 +1,4 @@
-package com.sshariff.capex.capex;
+package com.sshariff.capex;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

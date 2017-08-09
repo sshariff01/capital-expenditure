@@ -5,8 +5,12 @@ module.exports = function () {
     browser.url(url);
   });
 
-  this.Then(/^I expect the title of the page "([^"]*)"$/, (title) => {
-    expect(browser.getTitle()).to.be.eql(title);
+  this.Then(/^I see the label "([^"]*)" for (.*)$/, (label, elementSelector) => {
+    expect(browser.getText('#' + elementSelector + '-label')).to.be.eql(label);
   });
-}
 
+  this.Then(/^I see a value equal to the (.*)$/, (field) => {
+    expect(browser.getText('#' + field + '-value')).to.match(/^[0-9]*.[0-9]{2}$/)
+  });
+
+};
